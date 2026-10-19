@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Datasets et fichiers d'entraînement volumineux
+datasets/
+data/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+train*.bin
+val*.bin
+
+# Logs
+*.log
